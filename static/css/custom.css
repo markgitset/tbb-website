@@ -15,8 +15,7 @@
 .navbar        { box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
 .navbar-brand  { font-size: 1.25rem; letter-spacing: .3px; }
 .dropdown-menu { border-top: 3px solid var(--tbb-gold); }
-/* Invert the black/white logo to show white on dark backgrounds */
-.nav-logo { filter: brightness(0) invert(1); }
+/* Logo uses the pre-rendered white line-art asset (tbb-logo-white.png) on dark backgrounds */
 
 /* ── Scholarship banner ──────────────────────────────────────────────────── */
 .scholarship-banner {

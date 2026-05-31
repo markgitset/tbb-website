@@ -24,7 +24,7 @@ Choose the location that best suits your travel plans.
   <img src="/images/bandina-camp2.png" alt="Bandina Christian Youth Camp" style="max-width:48%;border-radius:6px;">
 </div>
 
-[Download Camp Map](/uploads/2/8/7/6/28767859/bcyc_map_2026.pdf)
+[Download Camp Map](/uploads/bcyc_map_2026.pdf)
 
 **What to Bring:**
 - ESV Bible (required for testing)

@@ -42,33 +42,33 @@ Individual chapter review quizzes. Click any chapter to launch its Kahoot.
 ## Practice Verse Find Tests (Round 1)
 
 ### Joshua (Chapters 1–24)
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01to24-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01to24-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01to24-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01to24-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01to24-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-verse-find-jos01to24-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-verse-find-jos01to24-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-verse-find-jos01to24-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-verse-find-jos01to24-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-verse-find-jos01to24-seed0050.pdf)
 
 ### Joshua & Judges
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01tojdg21-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01tojdg21-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01tojdg21-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-verse-find-jos01tojdg21-seed0040.pdf)
+[Test 1](/uploads/josh-judg-ruth-verse-find-jos01tojdg21-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-verse-find-jos01tojdg21-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-verse-find-jos01tojdg21-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-verse-find-jos01tojdg21-seed0040.pdf)
 
 ---
 
 ## Practice Round 4 Tests — Quotations (Closed Bible)
 
 ### Joshua (Chapters 1–24)
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01to24-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01to24-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01to24-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01to24-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01to24-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-quotes-jos01to24-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-quotes-jos01to24-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-quotes-jos01to24-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-quotes-jos01to24-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-quotes-jos01to24-seed0050.pdf)
 
 ### Joshua & Judges
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01tojdg21-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01tojdg21-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01tojdg21-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01tojdg21-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01tojdg21-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-quotes-jos01tojdg21-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-quotes-jos01tojdg21-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-quotes-jos01tojdg21-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-quotes-jos01tojdg21-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-quotes-jos01tojdg21-seed0050.pdf)
 
 ### Full Set (Joshua, Judges & Ruth)
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01torut04-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01torut04-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01torut04-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01torut04-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-quotes-jos01torut04-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-quotes-jos01torut04-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-quotes-jos01torut04-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-quotes-jos01torut04-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-quotes-jos01torut04-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-quotes-jos01torut04-seed0050.pdf)
 
 ---
 
 ## Practice Round 5 Tests — Headings & Events (Closed Bible)
 
 ### Joshua (Chapters 1–24)
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01to24-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01to24-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01to24-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01to24-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01to24-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-events-jos01to24-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-events-jos01to24-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-events-jos01to24-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-events-jos01to24-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-events-jos01to24-seed0050.pdf)
 
 ### Joshua & Judges
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01tojdg21-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01tojdg21-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01tojdg21-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01tojdg21-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01tojdg21-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-events-jos01tojdg21-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-events-jos01tojdg21-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-events-jos01tojdg21-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-events-jos01tojdg21-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-events-jos01tojdg21-seed0050.pdf)
 
 ### Full Set (Joshua, Judges & Ruth)
-[Test 1](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01torut04-seed0010.pdf) · [Test 2](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01torut04-seed0020.pdf) · [Test 3](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01torut04-seed0030.pdf) · [Test 4](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01torut04-seed0040.pdf) · [Test 5](/uploads/2/8/7/6/28767859/josh-judg-ruth-events-jos01torut04-seed0050.pdf)
+[Test 1](/uploads/josh-judg-ruth-events-jos01torut04-seed0010.pdf) · [Test 2](/uploads/josh-judg-ruth-events-jos01torut04-seed0020.pdf) · [Test 3](/uploads/josh-judg-ruth-events-jos01torut04-seed0030.pdf) · [Test 4](/uploads/josh-judg-ruth-events-jos01torut04-seed0040.pdf) · [Test 5](/uploads/josh-judg-ruth-events-jos01torut04-seed0050.pdf)

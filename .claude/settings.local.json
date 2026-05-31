@@ -21,7 +21,9 @@
       "Bash(cp \"/home/mark/ws/tbb-website2/www.texasbiblebowl.org/uploads/2/8/7/6/28767859/published/bandina.jpg@1755198997\" /home/mark/ws/tbb-website/static/images/bandina.jpg)",
       "Bash(cp \"/home/mark/ws/tbb-website2/www.texasbiblebowl.org/uploads/2/8/7/6/28767859/published/wryc.png@1755198859\" /home/mark/ws/tbb-website/static/images/wryc.png)",
       "Bash(cp \"/home/mark/ws/tbb-website2/www.texasbiblebowl.org/uploads/2/8/7/6/28767859/editor/camp2_1.png\" /home/mark/ws/tbb-website/static/images/bandina-camp2.png)",
-      "Bash(cp \"/home/mark/ws/tbb-website2/www.texasbiblebowl.org/uploads/2/8/7/6/28767859/editor/camp2.png@1752596497\" /home/mark/ws/tbb-website/static/images/wryc-camp2.png)"
+      "Bash(cp \"/home/mark/ws/tbb-website2/www.texasbiblebowl.org/uploads/2/8/7/6/28767859/editor/camp2.png@1752596497\" /home/mark/ws/tbb-website/static/images/wryc-camp2.png)",
+      "Bash(sed -i 's|/uploads/2/8/7/6/28767859/|/uploads/|g' /home/mark/ws/tbb-website/content/about/locations.md /home/mark/ws/tbb-website/content/study-resources/downloads.md /home/mark/ws/tbb-website/content/study-resources/practice-tests.md)",
+      "Bash(sed -i 's|uploads/2/8/7/6/28767859/|uploads/|g' /home/mark/ws/tbb-website/layouts/photos/single.html)"
     ]
   }
 }

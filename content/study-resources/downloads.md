@@ -28,6 +28,10 @@ weight: 1
 - [Chapter Headings — List format](/uploads/2/8/7/6/28767859/jjr_headings.pdf)
 - [Chapter Headings Flashcards](/uploads/2/8/7/6/28767859/tbb_chapter_heading_cards.pdf) — Compatible with Avery 5870 business cards
 
+## Coach's Guide
+
+- [Coach's Guide](/uploads/2/8/7/6/28767859/tbb_new_coachs_guide_v.23.1.pdf) — Rules, regulations, and competition procedures for new and experienced coaches
+
 ## Practice Materials
 
 - [Full Practice Test](/uploads/2/8/7/6/28767859/tbb_jjr_test.pdf)

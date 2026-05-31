@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $year := .Params.photoYear }}
 {{ $photos := "" }}
-{{ if $year }}{{ $photos = index .Site.Data.photos $year }}{{ end }}
+{{ if $year }}{{ $photos = index hugo.Data.photos $year }}{{ end }}
 <div class="container py-5">
   <h1 class="page-title mb-2">{{ .Title }}</h1>
   {{ with .Content }}<div class="content-body mb-4">{{ . }}</div>{{ end }}

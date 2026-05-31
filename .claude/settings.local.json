@@ -12,7 +12,10 @@
       "Bash(git add *)",
       "Bash(sort -t/ -k1)",
       "Bash(curl -s https://markgitset.github.io/tbb-website/)",
-      "Bash(curl -sv https://markgitset.github.io/tbb-website/)"
+      "Bash(curl -sv https://markgitset.github.io/tbb-website/)",
+      "Bash(gh api *)",
+      "Bash(xargs -I{} gh run view {} --repo markgitset/tbb-website --log)",
+      "Bash(gh run *)"
     ]
   }
 }

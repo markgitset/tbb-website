@@ -10,14 +10,16 @@
   <div class="hero-banner-img">
     <img src="{{ .Site.BaseURL }}images/hero-bg.png" alt="God's Promises Unbroken — Joshua 21:45. Students taking the Texas Bible Bowl test." class="w-100">
   </div>
-  <div class="container text-center py-4">
-    <p class="hero-badge mb-3">{{ .Site.Params.eventYear }} Event</p>
-    <h1 class="display-5 fw-bold mb-2">Texas Bible Bowl</h1>
-    <p class="fs-5 text-white-50 mb-1">{{ .Site.Params.eventScripture }}</p>
-    <p class="fs-5 mb-4">{{ .Site.Params.eventDates }}</p>
-    <div class="d-flex flex-wrap gap-3 justify-content-center">
-      <a href="/registration/" class="btn btn-warning btn-lg fw-bold px-4">Register Now</a>
-      <a href="/study-resources/downloads/" class="btn btn-outline-light btn-lg px-4">Study Materials</a>
+  <div class="hero-cta">
+    <div class="container text-center">
+      <p class="hero-badge mb-3">{{ .Site.Params.eventYear }} Event</p>
+      <h1 class="display-4 fw-bold mb-2 text-white">Texas Bible Bowl</h1>
+      <p class="fs-5 mb-1 text-white">{{ .Site.Params.eventScripture }}</p>
+      <p class="fs-5 mb-4 text-white-50">{{ .Site.Params.eventDates }}</p>
+      <div class="d-flex flex-wrap gap-3 justify-content-center">
+        <a href="/registration/" class="btn btn-warning btn-lg fw-bold px-4">Register Now</a>
+        <a href="/study-resources/downloads/" class="btn btn-outline-light btn-lg px-4">Study Materials</a>
+      </div>
     </div>
   </div>
 </section>

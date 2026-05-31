@@ -49,6 +49,13 @@ h1, .display-5 { font-weight: 700; }
   width: 100%;
   height: auto;
 }
+/* CTA panel sits flush beneath the banner; a gold rule ties the two into one hero */
+.hero-cta {
+  background: linear-gradient(180deg, var(--tbb-navy) 0%, #142e4a 100%);
+  border-top: 4px solid var(--tbb-gold);
+  padding: 2.5rem 1rem 2.75rem;
+}
+.hero-cta h1 { letter-spacing: -0.015em; }
 .hero-badge {
   display: inline-block;
   background-color: var(--tbb-gold);

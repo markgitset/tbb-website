@@ -10,7 +10,9 @@
       "Bash(hugo --gc --minify)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(sort -t/ -k1)"
+      "Bash(sort -t/ -k1)",
+      "Bash(curl -s https://markgitset.github.io/tbb-website/)",
+      "Bash(curl -sv https://markgitset.github.io/tbb-website/)"
     ]
   }
 }

@@ -15,7 +15,8 @@
       "Bash(curl -sv https://markgitset.github.io/tbb-website/)",
       "Bash(gh api *)",
       "Bash(xargs -I{} gh run view {} --repo markgitset/tbb-website --log)",
-      "Bash(gh run *)"
+      "Bash(gh run *)",
+      "Bash(git commit *)"
     ]
   }
 }

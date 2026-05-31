@@ -10,8 +10,8 @@
   <p class="text-muted mb-4">{{ len $photos }} photos</p>
   <div class="photo-grid">
     {{ range $photos }}
-    <a href="/uploads/2/8/7/6/28767859/{{ . }}" target="_blank" class="photo-thumb">
-      <img src="/uploads/2/8/7/6/28767859/{{ . }}" alt="Texas Bible Bowl {{ $year }}" loading="lazy">
+    <a href="{{ printf "/uploads/2/8/7/6/28767859/%s" . | relURL }}" target="_blank" class="photo-thumb">
+      <img src="{{ printf "/uploads/2/8/7/6/28767859/%s" . | relURL }}" alt="Texas Bible Bowl {{ $year }}" loading="lazy">
     </a>
     {{ end }}
   </div>

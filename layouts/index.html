@@ -9,7 +9,7 @@
 <section class="hero-section">
   <!-- Banner image from original site -->
   <div class="hero-banner-img">
-    <img src="/images/hero-bg.png" alt="God's Promises Unbroken — Joshua 21:45. Students taking the Texas Bible Bowl test." class="w-100">
+    <img src="{{ "/images/hero-bg.png" | relURL }}" alt="God's Promises Unbroken — Joshua 21:45. Students taking the Texas Bible Bowl test." class="w-100">
   </div>
   <!-- Event details + CTAs -->
   <div class="container text-center py-4">
@@ -18,8 +18,8 @@
     <p class="fs-5 text-white-50 mb-1">{{ .Site.Params.eventScripture }}</p>
     <p class="fs-5 mb-4">{{ .Site.Params.eventDates }}</p>
     <div class="d-flex flex-wrap gap-3 justify-content-center">
-      <a href="/registration/" class="btn btn-warning btn-lg fw-bold px-4">Register Now</a>
-      <a href="/study-resources/downloads/" class="btn btn-outline-light btn-lg px-4">Study Materials</a>
+      <a href="{{ "/registration/" | relURL }}" class="btn btn-warning btn-lg fw-bold px-4">Register Now</a>
+      <a href="{{ "/study-resources/downloads/" | relURL }}" class="btn btn-outline-light btn-lg px-4">Study Materials</a>
     </div>
   </div>
 </section>
@@ -35,7 +35,7 @@
             <div class="feature-icon mb-3">📖</div>
             <h4 class="card-title">Compete</h4>
             <p class="card-text text-muted">Rules, round descriptions, sample questions, and the curriculum cycle.</p>
-            <a href="/compete/" class="btn btn-primary mt-2">How It Works</a>
+            <a href="{{ "/compete/" | relURL }}" class="btn btn-primary mt-2">How It Works</a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
             <div class="feature-icon mb-3">📥</div>
             <h4 class="card-title">Study Resources</h4>
             <p class="card-text text-muted">Download ESV Bible text, study guides, one-word lists, and practice tests.</p>
-            <a href="/study-resources/" class="btn btn-primary mt-2">Get Materials</a>
+            <a href="{{ "/study-resources/" | relURL }}" class="btn btn-primary mt-2">Get Materials</a>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
             <div class="feature-icon mb-3">🎓</div>
             <h4 class="card-title">Scholarships</h4>
             <p class="card-text text-muted">Three scholarship programs. $18,000 awarded to seniors in 2025.</p>
-            <a href="/scholarships/" class="btn btn-primary mt-2">Learn More</a>
+            <a href="{{ "/scholarships/" | relURL }}" class="btn btn-primary mt-2">Learn More</a>
           </div>
         </div>
       </div>

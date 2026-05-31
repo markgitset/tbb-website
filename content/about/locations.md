@@ -19,9 +19,9 @@ Choose the location that best suits your travel plans.
 
 <iframe src="https://www.google.com/maps?q=320+Bandina+Ranch+Rd,+Bandera,+TX+78003&output=embed" width="100%" height="300" style="border:0;border-radius:8px;margin-bottom:1rem;" allowfullscreen loading="lazy"></iframe>
 
-<div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;">
-  <img src="/images/bandina.jpg" alt="Bandina Christian Youth Camp" style="max-width:48%;border-radius:6px;">
-  <img src="/images/bandina-camp2.png" alt="Bandina Christian Youth Camp" style="max-width:48%;border-radius:6px;">
+<div class="photo-row">
+  <img src="/images/bandina.jpg" alt="Bandina Christian Youth Camp" class="content-photo">
+  <img src="/images/bandina-camp2.png" alt="Bandina Christian Youth Camp" class="content-photo">
 </div>
 
 [Download Camp Map](/uploads/bcyc_map_2026.pdf)
@@ -44,9 +44,9 @@ Choose the location that best suits your travel plans.
 
 <iframe src="https://www.google.com/maps?q=2838+FM+2794,+Spur,+TX+79370&output=embed" width="100%" height="300" style="border:0;border-radius:8px;margin-bottom:1rem;" allowfullscreen loading="lazy"></iframe>
 
-<div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;">
-  <img src="/images/wryc.png" alt="White River Youth Camp" style="max-width:48%;border-radius:6px;">
-  <img src="/images/wryc-camp2.png" alt="White River Youth Camp" style="max-width:48%;border-radius:6px;">
+<div class="photo-row">
+  <img src="/images/wryc.png" alt="White River Youth Camp" class="content-photo">
+  <img src="/images/wryc-camp2.png" alt="White River Youth Camp" class="content-photo">
 </div>
 
 **What to Bring:**

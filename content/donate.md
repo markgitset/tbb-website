@@ -39,7 +39,7 @@ Beyond monetary gifts, we maintain an Amazon Wish List of items needed for the w
 Supporters can purchase supplies directly through the registry.
 
 <a href="https://www.amazon.com/registries/gl/guest-view/1U43LRNWSYHTX?ref=gr_search_page_result" target="_blank">
-  <img src="/images/tbb-amazon.jpg" alt="Texas Bible Bowl Amazon Wish List" style="max-width:100%;border:1px solid #ccc;padding:3px;">
+  <img src="/images/tbb-amazon.jpg" alt="Texas Bible Bowl Amazon Wish List" class="content-photo" style="max-width:360px;">
 </a>
 
 ## Questions?

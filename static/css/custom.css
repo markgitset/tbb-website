@@ -20,6 +20,7 @@ h1, .display-5 { font-weight: 700; }
 .lead, .fs-5 { line-height: 1.5; }
 
 /* ── Bootstrap overrides ─────────────────────────────────────────────────── */
+.btn                  { font-weight: 600; }
 .btn-primary          { background-color: var(--tbb-navy); border-color: var(--tbb-navy); }
 .btn-primary:hover    { background-color: #142e4a; border-color: #142e4a; }
 .btn-outline-primary  { color: var(--tbb-navy); border-color: var(--tbb-navy); }
@@ -93,6 +94,33 @@ h1, .display-5 { font-weight: 700; }
 .content-body img { max-width: 100%; height: auto; border-radius: 6px; }
 .content-body a   { color: var(--tbb-navy); }
 .content-body a:hover { color: var(--tbb-gold); }
+
+/* Shared, consistent treatment for embedded photos */
+.content-body .content-photo {
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+}
+.content-body .content-photo--right {
+  float: right;
+  max-width: 280px;
+  margin: 0.25rem 0 1rem 1.5rem;
+}
+.content-body .photo-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 1.75rem;
+}
+.content-body .photo-row .content-photo {
+  flex: 1 1 220px;
+  max-width: calc(50% - 0.5rem);
+  height: 220px;
+  object-fit: cover;
+}
+@media (max-width: 575.98px) {
+  .content-body .photo-row .content-photo { max-width: 100%; height: auto; }
+}
 
 .content-body table {
   width: 100%;

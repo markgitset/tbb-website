@@ -1,6 +1,9 @@
 baseURL = "https://texasbiblebowl.org/"
 locale = "en-us"
 title = "Texas Bible Bowl"
+# Rewrite root-relative URLs written in content (e.g. /images/..., /uploads/...) with the
+# build's baseURL so they keep the path prefix on the GitHub Pages subpath deployment.
+canonifyURLs = true
 
 [params]
   description   = "Making God's Word Important — Annual Bible knowledge competition for students 3rd grade through adult."

@@ -6,12 +6,17 @@ weight: 3
 
 ## About the Scholarship
 
+<img src="/images/paul-hendrickson.jpg" alt="Paul Hendrickson"
+     style="max-width:280px;border-radius:6px;float:right;margin:0 0 1rem 1rem;">
+
 This scholarship honors **Paul Hendrickson**, one of Texas Bible Bowl's three co-founders
 in 2010. Paul helped launch TBB following the conclusion of National Bible Bowl at ACU,
 with initial support from churches in Magnolia, TX and Lake Houston.
 
 Paul's vision was to help *"young people immerse themselves in God's Word, growing in
 knowledge, fellowship, and faith."*
+
+<div style="clear:both;"></div>
 
 ## Award Details
 

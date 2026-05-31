@@ -31,9 +31,8 @@
 }
 .hero-banner-img img {
   display: block;
-  max-height: 340px;
-  object-fit: cover;
-  object-position: center;
+  width: 100%;
+  height: auto;
 }
 .hero-badge {
   display: inline-block;

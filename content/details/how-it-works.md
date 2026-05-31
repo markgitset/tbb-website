@@ -15,7 +15,7 @@ While the name says "Texas," participants from anywhere are welcome.
 
 The competition uses the **English Standard Version (ESV)**. The NIV cannot be reproduced
 in bulk due to copyright restrictions. The ESV is newer, very readable, and an excellent
-choice for competition study. See [Why the ESV?](/compete/why-esv/) for details.
+choice for competition study. See [Why the ESV?](/details/why-esv/) for details.
 
 ## Test Format
 
@@ -55,6 +55,6 @@ Each division (except Adult) has **Inexperienced** and **Experienced** subdivisi
 ## Annual Curriculum
 
 One Bible book or passage is studied each year, tested each spring.
-See the [Curriculum](/compete/curriculum/) page for the full 10-year rotation.
+See the [Curriculum](/details/curriculum/) page for the full 10-year rotation.
 
 **2025–26:** Joshua, Judges & Ruth — Theme: *"Unbreakable"*

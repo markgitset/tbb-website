@@ -28,44 +28,44 @@ title = "Texas Bible Bowl"
   weight = 10
 
 [[menus.main]]
-  name   = "Compete"
-  url    = "/compete/"
+  name   = "Details"
+  url    = "/details/"
   weight = 20
 
 [[menus.main]]
   name   = "How It Works"
   url    = "/compete/how-it-works/"
-  parent = "Compete"
+  parent = "Details"
   weight = 1
 
 [[menus.main]]
   name   = "Rules & Regulations"
   url    = "/compete/rules/"
-  parent = "Compete"
+  parent = "Details"
   weight = 2
 
 [[menus.main]]
   name   = "Round Description"
   url    = "/compete/round-description/"
-  parent = "Compete"
+  parent = "Details"
   weight = 3
 
 [[menus.main]]
   name   = "Sample Questions"
   url    = "/compete/sample-questions/"
-  parent = "Compete"
+  parent = "Details"
   weight = 4
 
 [[menus.main]]
   name   = "Curriculum"
   url    = "/compete/curriculum/"
-  parent = "Compete"
+  parent = "Details"
   weight = 5
 
 [[menus.main]]
   name   = "Why the ESV?"
   url    = "/compete/why-esv/"
-  parent = "Compete"
+  parent = "Details"
   weight = 6
 
 [[menus.main]]

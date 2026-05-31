@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.texasbiblebowl.org)",
+      "Bash(curl -s https://www.texasbiblebowl.org)",
+      "Bash(curl -s \"https://www.texasbiblebowl.org/uploads/2/8/7/6/28767859/background-images/1298292903.png\" -o /home/mark/ws/tbb-website/static/images/hero-bg.png)",
+      "Bash(grep -v '^--$')",
+      "Bash(xargs du -sh)",
+      "Bash(xargs du -ch)",
+      "Bash(hugo --gc --minify)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(sort -t/ -k1)"
+    ]
+  }
+}

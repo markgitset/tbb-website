@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $year := .Params.photoYear }}
+{{ $photos := "" }}
+{{ if $year }}{{ $photos = index .Site.Data.photos $year }}{{ end }}
+<div class="container py-5">
+  <h1 class="page-title mb-2">{{ .Title }}</h1>
+  {{ with .Content }}<div class="content-body mb-4">{{ . }}</div>{{ end }}
+
+  {{ if $photos }}
+  <p class="text-muted mb-4">{{ len $photos }} photos</p>
+  <div class="photo-grid">
+    {{ range $photos }}
+    <a href="/uploads/2/8/7/6/28767859/{{ . }}" target="_blank" class="photo-thumb">
+      <img src="/uploads/2/8/7/6/28767859/{{ . }}" alt="Texas Bible Bowl {{ $year }}" loading="lazy">
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

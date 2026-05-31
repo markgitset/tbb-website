@@ -1,0 +1,126 @@
+/* ── Brand variables ──────────────────────────────────────────────────────── */
+:root {
+  --tbb-navy: #1a3a5c;
+  --tbb-gold: #c9952a;
+}
+
+/* ── Bootstrap overrides ─────────────────────────────────────────────────── */
+.btn-primary          { background-color: var(--tbb-navy); border-color: var(--tbb-navy); }
+.btn-primary:hover    { background-color: #142e4a; border-color: #142e4a; }
+.btn-outline-primary  { color: var(--tbb-navy); border-color: var(--tbb-navy); }
+.btn-outline-primary:hover { background-color: var(--tbb-navy); color: #fff; }
+.list-group-item.active { background-color: var(--tbb-navy); border-color: var(--tbb-navy); }
+
+/* ── Navbar ──────────────────────────────────────────────────────────────── */
+.navbar        { box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+.navbar-brand  { font-size: 1.25rem; letter-spacing: .3px; }
+.dropdown-menu { border-top: 3px solid var(--tbb-gold); }
+/* Invert the black/white logo to show white on dark backgrounds */
+.nav-logo { filter: brightness(0) invert(1); }
+
+/* ── Scholarship banner ──────────────────────────────────────────────────── */
+.scholarship-banner {
+  background-color: var(--tbb-gold);
+  color: #fff;
+  font-size: .95rem;
+}
+
+/* ── Hero ────────────────────────────────────────────────────────────────── */
+.hero-section {
+  background-color: #000;
+  color: #fff;
+}
+.hero-banner-img img {
+  display: block;
+  max-height: 340px;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-badge {
+  display: inline-block;
+  background-color: var(--tbb-gold);
+  color: #fff;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .9rem;
+  letter-spacing: .5px;
+}
+.feature-icon { font-size: 2.5rem; }
+
+/* ── Cards ───────────────────────────────────────────────────────────────── */
+.section-card { transition: transform .15s, box-shadow .15s; }
+.section-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12) !important;
+}
+
+/* ── Page heading ────────────────────────────────────────────────────────── */
+.page-title {
+  color: var(--tbb-navy);
+  border-bottom: 3px solid var(--tbb-gold);
+  padding-bottom: .5rem;
+  display: inline-block;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+.sidebar { position: sticky; top: 80px; }
+.active-item { background-color: var(--tbb-navy); }
+
+/* ── Content body (markdown-rendered area) ───────────────────────────────── */
+.content-body h2 { color: var(--tbb-navy); margin-top: 2rem; padding-top: .5rem; }
+.content-body h3 { color: var(--tbb-navy); margin-top: 1.5rem; }
+.content-body img { max-width: 100%; height: auto; border-radius: 6px; }
+.content-body a   { color: var(--tbb-navy); }
+.content-body a:hover { color: var(--tbb-gold); }
+
+.content-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: .95rem;
+}
+.content-body table th {
+  background-color: var(--tbb-navy);
+  color: #fff;
+  padding: 10px 14px;
+  text-align: left;
+}
+.content-body table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+.content-body table tr:nth-child(even) td { background-color: #f8f9fa; }
+.content-body blockquote {
+  border-left: 4px solid var(--tbb-gold);
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+/* ── Photo gallery grid ──────────────────────────────────────────────────── */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 6px;
+}
+.photo-thumb img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: opacity .2s;
+  display: block;
+}
+.photo-thumb:hover img { opacity: .85; }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.site-footer {
+  background-color: var(--tbb-navy);
+  color: rgba(255,255,255,.65);
+}
+.site-footer a { color: rgba(255,255,255,.65); text-decoration: none; }
+.site-footer a:hover { color: #fff; }
+.footer-tagline { color: var(--tbb-gold); font-style: italic; }

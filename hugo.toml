@@ -1,0 +1,177 @@
+baseURL = "https://texasbiblebowl.org/"
+locale = "en-us"
+title = "Texas Bible Bowl"
+
+[params]
+  description   = "Making God's Word Important — Annual Bible knowledge competition for students 3rd grade through adult."
+  tagline       = "Making God's Word Important"
+  eventYear     = "2026"
+  eventDates    = "March 27–29, 2026"
+  eventTheme    = "Unbreakable"
+  eventScripture = "Joshua, Judges & Ruth"
+  facebook      = "https://www.facebook.com/TexasBibleBowl"   # update if needed
+  youtube       = "https://www.youtube.com/channel/UCdlu_qTP5cmoQrNGJSDRbcg"
+  mailingAddress = "10431 Remuda View Drive, San Antonio, TX 78254"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   # allows raw HTML in .md files (needed for maps, forms, embeds)
+  [markup.highlight]
+    noClasses = false
+
+# ── Navigation menus ────────────────────────────────────────────────────────
+
+[[menus.main]]
+  name   = "Registration"
+  url    = "/registration/"
+  weight = 10
+
+[[menus.main]]
+  name   = "Compete"
+  url    = "/compete/"
+  weight = 20
+
+[[menus.main]]
+  name   = "How It Works"
+  url    = "/compete/how-it-works/"
+  parent = "Compete"
+  weight = 1
+
+[[menus.main]]
+  name   = "Rules & Regulations"
+  url    = "/compete/rules/"
+  parent = "Compete"
+  weight = 2
+
+[[menus.main]]
+  name   = "Round Description"
+  url    = "/compete/round-description/"
+  parent = "Compete"
+  weight = 3
+
+[[menus.main]]
+  name   = "Sample Questions"
+  url    = "/compete/sample-questions/"
+  parent = "Compete"
+  weight = 4
+
+[[menus.main]]
+  name   = "Curriculum"
+  url    = "/compete/curriculum/"
+  parent = "Compete"
+  weight = 5
+
+[[menus.main]]
+  name   = "Why the ESV?"
+  url    = "/compete/why-esv/"
+  parent = "Compete"
+  weight = 6
+
+[[menus.main]]
+  name   = "Study Resources"
+  url    = "/study-resources/"
+  weight = 30
+
+[[menus.main]]
+  name   = "Downloads"
+  url    = "/study-resources/downloads/"
+  parent = "Study Resources"
+  weight = 1
+
+[[menus.main]]
+  name   = "Practice Tests & Games"
+  url    = "/study-resources/practice-tests/"
+  parent = "Study Resources"
+  weight = 2
+
+[[menus.main]]
+  name   = "Scholarships"
+  url    = "/scholarships/"
+  weight = 40
+
+[[menus.main]]
+  name   = "TBB Scholarship"
+  url    = "/scholarships/tbb-scholarship/"
+  parent = "Scholarships"
+  weight = 1
+
+[[menus.main]]
+  name   = "Mary Orbison"
+  url    = "/scholarships/mary-orbison/"
+  parent = "Scholarships"
+  weight = 2
+
+[[menus.main]]
+  name   = "Paul Hendrickson"
+  url    = "/scholarships/paul-hendrickson/"
+  parent = "Scholarships"
+  weight = 3
+
+[[menus.main]]
+  name   = "About"
+  url    = "/about/"
+  weight = 50
+
+[[menus.main]]
+  name   = "Our Story"
+  url    = "/about/our-story/"
+  parent = "About"
+  weight = 1
+
+[[menus.main]]
+  name   = "Leadership"
+  url    = "/about/leadership/"
+  parent = "About"
+  weight = 2
+
+[[menus.main]]
+  name   = "Locations"
+  url    = "/about/locations/"
+  parent = "About"
+  weight = 3
+
+[[menus.main]]
+  name   = "Volunteers"
+  url    = "/about/volunteers/"
+  parent = "About"
+  weight = 4
+
+[[menus.main]]
+  name   = "In the News"
+  url    = "/about/in-the-news/"
+  parent = "About"
+  weight = 5
+
+[[menus.main]]
+  name   = "Photos"
+  url    = "/photos/"
+  weight = 60
+
+[[menus.main]]
+  name   = "2025"
+  url    = "/photos/2025/"
+  parent = "Photos"
+  weight = 1
+
+[[menus.main]]
+  name   = "2024"
+  url    = "/photos/2024/"
+  parent = "Photos"
+  weight = 2
+
+[[menus.main]]
+  name   = "2023"
+  url    = "/photos/2023/"
+  parent = "Photos"
+  weight = 3
+
+[[menus.main]]
+  name   = "Donate"
+  url    = "/donate/"
+  weight = 70
+
+[[menus.main]]
+  name   = "Contact"
+  url    = "/contact/"
+  weight = 80

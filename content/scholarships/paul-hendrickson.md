@@ -29,7 +29,7 @@ knowledge, fellowship, and faith."*
 
 - Must be **nominated by your Bible Bowl coach**
 - Essay submission required
-- **2026 Deadline:** Midnight, Sunday, March 15, 2026
+- **Deadline:** Midnight, {{< scholarship-deadline >}}
 
 ## Submit To
 

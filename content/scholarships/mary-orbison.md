@@ -28,7 +28,7 @@ and Biblical accuracy."
 - Must be **nominated by your Bible Bowl coach**
 - Coach provides a recommendation letter
 - Essay submission required
-- **2026 Deadline:** Midnight, Sunday, March 15, 2026
+- **Deadline:** Midnight, {{< scholarship-deadline >}}
 
 ## Submit To
 

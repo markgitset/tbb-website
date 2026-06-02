@@ -1,6 +1,6 @@
 ---
 title: "Registration"
-description: "Register your congregation for Texas Bible Bowl 2026. Deadline February 28, 2026."
+description: "Register your congregation for Texas Bible Bowl."
 ---
 
 **{{< scholarship-blurb >}}**
@@ -10,7 +10,7 @@ description: "Register your congregation for Texas Bible Bowl 2026. Deadline Feb
 Registration is done **by congregation**. Coaches submit their congregation's information
 and will receive a follow-up email with a Google Sheet link to manage participants and guests.
 
-**Registration Deadline: February 28, 2026**
+**Registration Deadline: {{< registration-deadline >}}**
 
 ## Pricing
 

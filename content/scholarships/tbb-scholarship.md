@@ -23,7 +23,7 @@ God's faithful promises, provision, or guidance.
 | Include | Your name, home congregation, years of TBB participation |
 | Submission | Email to the Scholarship Committee |
 
-**2026 Deadline:** Now closed — check back for 2027 information.
+**Deadline:** Midnight, {{< scholarship-deadline >}}
 
 ## Questions?
 

@@ -1,10 +1,10 @@
 ---
 title: "Locations"
-description: "Texas Bible Bowl 2026 locations — TBB South in Bandera and TBB West in Spur."
+description: "Texas Bible Bowl 2027 locations — TBB South in Bandera and TBB West in Spur."
 weight: 3
 ---
 
-## 2026 Event: March 27–29, 2026
+## 2027 Event: April 2–4, 2027
 
 Texas Bible Bowl runs **two simultaneous locations** with identical competition material.
 Choose the location that best suits your travel plans.

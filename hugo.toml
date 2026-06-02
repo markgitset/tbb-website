@@ -8,11 +8,11 @@ canonifyURLs = true
 [params]
   description   = "Making God's Word Important — Annual Bible knowledge competition for students 3rd grade through adult."
   tagline       = "Making God's Word Important"
-  eventYear     = "2026"
-  eventDates    = "March 27–29, 2026"
+  eventYear     = "2027"
+  eventDateRange = "April 2–4"   # year comes from eventYear; compose in templates
   eventTheme    = "Unbreakable"
   eventScripture = "Joshua, Judges & Ruth"
-  facebook      = "https://www.facebook.com/TexasBibleBowl"   # update if needed
+  facebook      = "https://www.facebook.com/TexasBibleBowl"
   youtube       = "https://www.youtube.com/channel/UCdlu_qTP5cmoQrNGJSDRbcg"
   mailingAddress = "10431 Remuda View Drive, San Antonio, TX 78254"
 

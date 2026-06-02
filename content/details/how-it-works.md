@@ -4,7 +4,7 @@ description: "Overview of Texas Bible Bowl — who can participate, the test for
 weight: 1
 ---
 
-**In 2025, Texas Bible Bowl gave away $18,000 in scholarships!**
+**{{< scholarship-blurb >}}**
 
 ## Who Can Participate?
 

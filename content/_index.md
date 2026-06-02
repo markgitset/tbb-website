@@ -1,4 +1,4 @@
 ---
 title: "Home"
-description: "Texas Bible Bowl — Making God's Word Important. Annual Bible knowledge competition April 2–4, 2027."
+description: "Texas Bible Bowl — Making God's Word Important. Annual Bible knowledge competition for students 3rd grade through adult."
 ---

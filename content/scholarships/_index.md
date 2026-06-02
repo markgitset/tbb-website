@@ -1,9 +1,9 @@
 ---
 title: "Scholarships"
-description: "Texas Bible Bowl scholarship programs — $18,000 awarded in 2025."
+description: "Texas Bible Bowl scholarship programs — opportunities for graduating high school seniors."
 ---
 
-**In 2025, Texas Bible Bowl gave away $18,000 in scholarships!**
+**{{< scholarship-blurb >}}**
 
 Texas Bible Bowl offers multiple scholarship opportunities for high school seniors.
 

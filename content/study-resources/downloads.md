@@ -4,7 +4,7 @@ description: "Download ESV Bible text, study guides, one-word lists, practice te
 weight: 1
 ---
 
-**In 2025, Texas Bible Bowl gave away $18,000 in scholarships!**
+**{{< scholarship-blurb >}}**
 
 ## Schedule
 

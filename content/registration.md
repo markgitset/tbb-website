@@ -3,7 +3,7 @@ title: "Registration"
 description: "Register your congregation for Texas Bible Bowl 2026. Deadline February 28, 2026."
 ---
 
-**In 2025, Texas Bible Bowl gave away $18,000 in scholarships!**
+**{{< scholarship-blurb >}}**
 
 ## How to Register
 

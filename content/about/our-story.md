@@ -24,7 +24,7 @@ the country each year.
 
 ## 2025 Milestone
 
-> **In 2025, Texas Bible Bowl gave away $18,000 in scholarships to graduating seniors.**
+> **{{< scholarship-blurb >}}**
 
 Now in its sixteenth year of operation, Texas Bible Bowl continues to welcome new
 congregations and families while honoring the tradition that inspired it.

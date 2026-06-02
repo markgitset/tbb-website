@@ -29,7 +29,7 @@ knowledge, fellowship, and faith."*
 
 - Must be **nominated by your Bible Bowl coach**
 - Essay submission required
-- **Deadline:** Midnight, {{< scholarship-deadline >}}
+- **Deadline:** {{< scholarship-deadline >}}
 
 ## Submit To
 

@@ -9,7 +9,7 @@ Texas Bible Bowl offers multiple scholarship opportunities for high school senio
 
 | Scholarship | Amount | Deadline |
 |---|---|---|
-| TBB Scholarship | $1,000 | See page |
+| TBB Scholarship | $1,000 | {{< scholarship-deadline >}} |
 | Mary Orbison Memorial | $1,500 | {{< scholarship-deadline >}} |
 | Paul Hendrickson Memorial | TBD | {{< scholarship-deadline >}} |
 

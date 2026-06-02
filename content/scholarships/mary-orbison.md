@@ -28,7 +28,7 @@ and Biblical accuracy."
 - Must be **nominated by your Bible Bowl coach**
 - Coach provides a recommendation letter
 - Essay submission required
-- **Deadline:** Midnight, {{< scholarship-deadline >}}
+- **Deadline:** {{< scholarship-deadline >}}
 
 ## Submit To
 

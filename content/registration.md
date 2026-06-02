@@ -7,19 +7,21 @@ description: "Register your congregation for Texas Bible Bowl."
 
 ## How to Register
 
+**Registration for {{< param eventYear >}} opens {{< registration-opens >}}.**
+
 Registration is done **by congregation**. Coaches submit their congregation's information
 and will receive a follow-up email with a Google Sheet link to manage participants and guests.
 
-**Registration Deadline: {{< registration-deadline >}}**
+**Registration deadline for {{< param eventYear >}} is {{< registration-deadline >}}.**
 
 ## Pricing
 
 | Participant | Cost |
 |---|---|
-| Adults (standard) | $85 per person |
-| Children ages 3–8 | $65 per person |
+| Adults (standard) | {{< param priceAdult >}} per person |
+| Children ages 3–8 | {{< param priceChild >}} per person |
 | Children under 2 | Free |
-| Extra t-shirts | $10 each |
+| Extra t-shirts | {{< param priceTshirt >}} each |
 
 ## Payment
 

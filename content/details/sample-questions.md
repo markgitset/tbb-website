@@ -5,7 +5,7 @@ weight: 4
 ---
 
 *Note: Examples below are from a prior year's curriculum (Genesis). Current year material
-covers Joshua, Judges & Ruth.*
+covers {{< param eventScripture >}}.*
 
 ## Round 1 — Find the Verse
 

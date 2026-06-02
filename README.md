@@ -22,17 +22,17 @@ hugo server -D
 
 All content lives in the `content/` directory as Markdown files.
 
-| Section | Directory |
-|---|---|
-| Home | `content/_index.md` |
-| Registration | `content/registration.md` |
-| Compete | `content/compete/` |
+| Section         | Directory                  |
+|-----------------|----------------------------|
+| Home            | `content/_index.md`        |
+| Registration    | `content/registration.md`  |
+| Details         | `content/details/`         |
 | Study Resources | `content/study-resources/` |
-| Scholarships | `content/scholarships/` |
-| About | `content/about/` |
-| Photos | `content/photos/` |
-| Donate | `content/donate.md` |
-| Contact | `content/contact.md` |
+| Scholarships    | `content/scholarships/`    |
+| About           | `content/about/`           |
+| Photos          | `content/photos/`          |
+| Donate          | `content/donate.md`        |
+| Contact         | `content/contact.md`       |
 
 ### Front matter fields
 

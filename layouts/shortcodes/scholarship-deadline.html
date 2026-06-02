@@ -1,1 +1,2 @@
-{{- printf "%s, %d" .Site.Params.scholarshipDeadline (int .Site.Params.eventYear) -}}
+{{- $d := .Site.Params.scholarshipDeadline -}}
+{{- if eq $d "TBD" -}}TBD{{- else -}}{{ printf "%s, %d" $d (int .Site.Params.eventYear) }}{{- end -}}

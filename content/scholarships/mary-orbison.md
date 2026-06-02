@@ -1,6 +1,6 @@
 ---
 title: "Mary Orbison Scholarship"
-description: "The $1,500 Mary Orbison Memorial Scholarship honoring 40 years of Bible Bowl dedication."
+description: "The Mary Orbison Memorial Scholarship honoring 40 years of Bible Bowl dedication."
 weight: 2
 ---
 
@@ -19,7 +19,7 @@ and Biblical accuracy."
 
 | | |
 |---|---|
-| **Amount** | $1,500 |
+| **Amount** | {{< param maryOrbisonAmount >}} |
 | **Eligibility** | High school seniors only |
 | **Selection** | Final recipient chosen by Mary Orbison's family |
 

@@ -1,2 +1,2 @@
-{{- $d := .Site.Params.registrationDeadline -}}
+{{- $d := .Site.Params.registrationOpens -}}
 {{- if eq $d "TBD" -}}TBD{{- else -}}{{ printf "%s" $d }}{{- end -}}

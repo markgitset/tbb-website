@@ -1,6 +1,6 @@
 ---
 title: "TBB Scholarship"
-description: "The $1,000 Texas Bible Bowl High School Senior Scholarship"
+description: "The Texas Bible Bowl High School Senior Scholarship."
 weight: 1
 ---
 
@@ -8,7 +8,7 @@ weight: 1
 
 | | |
 |---|---|
-| **Amount** | $1,000 |
+| **Amount** | {{< param tbbScholarshipAmount >}} |
 | **Valid for** | 30 months from award date |
 | **Eligibility** | High school seniors currently participating in Texas Bible Bowl |
 

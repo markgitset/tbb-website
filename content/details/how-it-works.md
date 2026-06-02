@@ -57,4 +57,4 @@ Each division (except Adult) has **Inexperienced** and **Experienced** subdivisi
 One Bible book or passage is studied each year, tested each spring.
 See the [Curriculum](/details/curriculum/) page for the full 10-year rotation.
 
-**2025–26:** Joshua, Judges & Ruth — Theme: *"Unbreakable"*
+**{{< school-year >}}:** {{< param eventScripture >}} — Theme: *"{{< param eventTheme >}}"*

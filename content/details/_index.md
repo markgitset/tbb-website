@@ -1,5 +1,5 @@
 ---
-title: "Compete"
+title: "Details"
 description: "Everything you need to know about competing in Texas Bible Bowl — rules, rounds, sample questions, and curriculum."
 ---
 

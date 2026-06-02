@@ -28,6 +28,16 @@ Hugo static site, deployed via GitHub Actions to GitHub Pages at the custom doma
   deploy.yml --ref master`). URLs are baked at build time, so they must be regenerated. If Enforce
   HTTPS is off, the build's baseURL is `http://` → mixed-content blocking on the HTTPS site.
 
+## Annual maintenance (design priority)
+This site is updated at least once a year — the **event date** and **study material** change
+every year (material runs on a ~10-year cycle, but the **theme** changes each time even when the
+material cycles back). **Design every change to minimize yearly update effort:** parameterize the
+things that change so they live in ONE place. Yearly-changing values belong in `hugo.toml`
+`[params]` (`eventYear`, `eventDateRange`, `eventTheme`, `eventScripture`) and are composed in
+templates (e.g. `{{ printf "%s, %s" .Site.Params.eventDateRange .Site.Params.eventYear }}`), never
+hardcoded or duplicated. Goal: a new year = edit a few params, nothing else. When content must
+restate a date/year/material, flag it rather than scattering copies.
+
 ## Content structure
 - Pages live under `content/<section>/`. The nav menu is defined in `hugo.toml` (`[[menus.main]]`);
   menu URLs must match the actual section paths.

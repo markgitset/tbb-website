@@ -15,3 +15,6 @@ Texas Bible Bowl offers multiple scholarship opportunities for high school senio
 
 Top-scoring **Senior division individuals** may also be eligible for scholarships
 from partnering Christian universities.
+
+To compete for these scholarships, [register your congregation](/registration/) for the
+upcoming competition.

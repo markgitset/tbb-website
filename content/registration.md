@@ -7,12 +7,18 @@ description: "Register your congregation for Texas Bible Bowl."
 
 ## How to Register
 
+New to Texas Bible Bowl? Start with [How It Works](/details/how-it-works/) to see who can
+participate, the test format, and this year's study material before you register.
+
 **Registration for {{< param eventYear >}} opens {{< registration-opens >}}.**
 
 Registration is done **by congregation**. Coaches submit their congregation's information
 and will receive a follow-up email with a Google Sheet link to manage participants and guests.
 
 **Registration deadline for {{< param eventYear >}} is {{< registration-deadline >}}.**
+
+Graduating high school seniors: don't miss the [scholarship opportunities](/scholarships/)
+available through Texas Bible Bowl and partnering Christian universities.
 
 ## Pricing
 

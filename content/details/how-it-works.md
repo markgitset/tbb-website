@@ -58,3 +58,8 @@ One Bible book or passage is studied each year, tested each spring.
 See the [Curriculum](/details/curriculum/) page for the full 10-year rotation.
 
 **{{< school-year >}}:** {{< param eventScripture >}} — Theme: *"{{< param eventTheme >}}"*
+
+## Ready to Compete?
+
+Grab the [study materials](/study-resources/downloads/) to start preparing, then
+[register your congregation](/registration/) when registration opens.

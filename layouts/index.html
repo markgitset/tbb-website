@@ -14,7 +14,14 @@
     <div class="container text-center">
       <p class="hero-badge mb-3">{{ .Site.Params.eventYear }} Event</p>
       <h1 class="display-4 fw-bold mb-2 text-white">Texas Bible Bowl</h1>
-      <p class="fs-5 mb-1 text-white">{{ .Site.Params.eventScripture }}</p>
+      {{ $theme := .Site.Params.eventTheme }}
+      <p class="fs-5 mb-1 text-white">
+        {{- if and $theme (ne $theme "TBD") -}}
+          {{ printf "%s — %s" $theme .Site.Params.eventScripture }}
+        {{- else -}}
+          {{ .Site.Params.eventScripture }}
+        {{- end -}}
+      </p>
       <p class="fs-5 mb-4 text-white-50">{{ printf "%s, %s" .Site.Params.eventDateRange .Site.Params.eventYear }}</p>
       <div class="d-flex flex-wrap gap-3 justify-content-center">
         <a href="/registration/" class="btn btn-warning btn-lg fw-bold px-4">Register Now</a>
@@ -65,7 +72,7 @@
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm text-center p-3 section-card">
           <div class="card-body">
-            <div class="feature-icon mb-3">📖</div>
+            <div class="feature-icon mb-3"><i class="bi bi-journal-bookmark-fill"></i></div>
             <h4 class="card-title">Details</h4>
             <p class="card-text text-muted">Rules, round descriptions, sample questions, and the curriculum cycle.</p>
             <a href="/details/" class="btn btn-primary mt-2">How It Works</a>
@@ -76,7 +83,7 @@
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm text-center p-3 section-card">
           <div class="card-body">
-            <div class="feature-icon mb-3">📥</div>
+            <div class="feature-icon mb-3"><i class="bi bi-download"></i></div>
             <h4 class="card-title">Study Resources</h4>
             <p class="card-text text-muted">Bible text, study guides, one-word lists, practice tests, and study games.</p>
             <a href="/study-resources/" class="btn btn-primary mt-2">Get Materials</a>
@@ -87,7 +94,7 @@
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm text-center p-3 section-card">
           <div class="card-body">
-            <div class="feature-icon mb-3">🎓</div>
+            <div class="feature-icon mb-3"><i class="bi bi-mortarboard-fill"></i></div>
             <h4 class="card-title">Scholarships</h4>
             <p class="card-text text-muted">Three scholarship programs. {{ .Site.Params.scholarshipAmount }} awarded to graduating seniors in {{ sub (int .Site.Params.eventYear) 1 }}.</p>
             <a href="/scholarships/" class="btn btn-primary mt-2">Learn More</a>

@@ -35,21 +35,17 @@
 <section class="at-a-glance py-4">
   <div class="container">
     <div class="row text-center g-4">
-      <div class="col-6 col-md-3">
-        <div class="glance-label">Event Dates</div>
-        <div class="glance-value">{{ printf "%s, %s" .Site.Params.eventDateRange .Site.Params.eventYear }}</div>
-      </div>
-      <div class="col-6 col-md-3">
-        <div class="glance-label">Study Material</div>
-        <div class="glance-value">{{ .Site.Params.eventScripture }}</div>
-      </div>
-      <div class="col-6 col-md-3">
+      <div class="col-6 col-md-4">
         <div class="glance-label">Registration Opens</div>
         <div class="glance-value">{{ .Site.Params.registrationOpens | title }}</div>
       </div>
-      <div class="col-6 col-md-3">
+      <div class="col-6 col-md-4">
         <div class="glance-label">Registration Deadline</div>
         <div class="glance-value">{{ .Site.Params.registrationDeadline }}</div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="glance-label">Who Competes</div>
+        <div class="glance-value">3rd Grade – Adult</div>
       </div>
     </div>
   </div>

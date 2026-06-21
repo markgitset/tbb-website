@@ -5,6 +5,11 @@ title = "Texas Bible Bowl"
 # build's baseURL so they keep the path prefix on the GitHub Pages subpath deployment.
 canonifyURLs = true
 
+# Emit a JSON search index (/index.json) alongside the home page, consumed by the
+# client-side search on /search/. Template: layouts/index.json.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   description   = "Making God's Word Important — Annual Bible knowledge competition for students 3rd grade through adult."
   tagline       = "Making God's Word Important"

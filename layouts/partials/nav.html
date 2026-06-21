@@ -43,6 +43,11 @@
         {{ end }}
 
       </ul>
+
+      <form class="d-flex ms-lg-3 my-2 my-lg-0" role="search" action="{{ .Site.BaseURL }}search/" method="get">
+        <input class="form-control form-control-sm nav-search" type="search" name="q"
+               placeholder="Search" aria-label="Search the site">
+      </form>
     </div>
   </div>
 </nav>

@@ -82,6 +82,22 @@ h1, .display-5 { font-weight: 700; }
   margin-bottom: .6rem;
 }
 
+/* ── Nav search box ──────────────────────────────────────────────────────── */
+.nav-search { min-width: 180px; }
+
+/* ── Search results ──────────────────────────────────────────────────────── */
+.search-result { border-bottom: 1px solid #eee; padding-bottom: .9rem; }
+.search-result a { color: var(--tbb-navy); text-decoration: none; }
+.search-result a:hover { color: var(--tbb-gold); }
+.search-result-section {
+  display: inline-block;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 700;
+  color: var(--tbb-gold);
+}
+
 /* ── Site map ────────────────────────────────────────────────────────────── */
 .sitemap-section {
   color: var(--tbb-navy);

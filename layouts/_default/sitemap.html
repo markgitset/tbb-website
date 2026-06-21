@@ -17,7 +17,7 @@
       <h2 class="h5 sitemap-section"><a href="{{ $.Site.BaseURL }}">Main Pages</a></h2>
       <ul class="list-unstyled small">
         {{ range .ByTitle }}
-        {{ if ne .RelPermalink $.RelPermalink }}
+        {{ if and (ne .RelPermalink $.RelPermalink) (ne .RelPermalink "/search/") }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
         {{ end }}

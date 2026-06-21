@@ -4,8 +4,16 @@ Hugo static site, deployed via GitHub Actions to GitHub Pages at the custom doma
 **https://texasbiblebowl.org**.
 
 ## Local development
-- `hugo server` → preview at http://localhost:1313 (live reload).
+- **Start the dev server with an explicit local baseURL:**
+  ```
+  hugo server --baseURL "http://localhost:1313/" --appendPort=false
+  ```
+  A plain `hugo server` does **not** work well here: because `canonifyURLs = true`, Hugo
+  bakes the configured **production** baseURL (`https://texasbiblebowl.org/`) into every link,
+  so clicking anything locally jumps to the live site. The explicit flag keeps links local.
 - Reproduce the production build locally: `hugo --gc --minify --baseURL "https://texasbiblebowl.org/"`.
+  Do **not** run this foreground build while the dev server is running — it can flip the running
+  server back to the production baseURL. Stop the server first, or run it in a separate checkout.
 
 ## Deploy
 - Push to `master` triggers `.github/workflows/deploy.yml`, which builds with Hugo and
@@ -41,10 +49,33 @@ restate a date/year/material, flag it rather than scattering copies.
 ## Content structure
 - Pages live under `content/<section>/`. The nav menu is defined in `hugo.toml` (`[[menus.main]]`);
   menu URLs must match the actual section paths.
+- **Nav conventions:** the top nav is intentionally kept to ~6 items. Photos is a child of
+  **About** (not top-level); the year galleries are listed on the `/photos/` landing page, not in
+  the menu. **Contact is footer-only** (in `footer.html`), deliberately not in the top nav. The nav
+  template (`partials/nav.html`) auto-injects a "{Section} overview" link at the top of every
+  dropdown (so the section landing page is reachable on touch), highlights the active section, and
+  renders any menu item named `Donate` as a gold button — add new dropdown children via
+  `[[menus.main]]` only.
 - Photo galleries are data-driven: `data/photos/<year>.json` lists filenames, with the image files
   in `static/uploads/`. The `photos/single.html` template renders them.
 - Brand: navy `#1a3a5c` / gold `#c9952a`; fonts Fraunces (headings) + Inter (body); styles in
-  `static/css/custom.css`.
+  `static/css/custom.css`. **Bootstrap Icons** (`<i class="bi bi-…">`) are loaded in `baseof.html`.
+
+## Site-wide features (how they're wired)
+- **Breadcrumbs:** `partials/breadcrumbs.html`, included by `single.html`, `list.html`, and
+  `sitemap.html`. Driven by `.Ancestors` — no per-page config needed.
+- **Search:** client-side, no server. `[outputs] home = [HTML, RSS, JSON]` in `hugo.toml` +
+  `layouts/index.json` emit `/index.json` (one entry per content/section page, search page
+  excluded). `/search/` (`content/search.md` + `layouts/_default/search.html`) queries it with
+  **Fuse.js** via `static/js/search.js` (live filtering, `?q=` deep link). The navbar search box
+  submits to `/search/`. If you add a page type that shouldn't be indexed, exclude it in
+  `layouts/index.json`.
+- **HTML sitemap:** `/sitemap/` (`content/sitemap.md` + `layouts/_default/sitemap.html`) lists every
+  section and standalone page; linked from the footer. Distinct from the machine `sitemap.xml`.
+- **"Start here" emphasis:** set `startHere: "<page-slug>"` in a section's `_index.md` to badge that
+  child's card on the section landing page (`list.html`). Opt-in; e.g. Details → `how-it-works`.
+- **Social/SEO:** Open Graph + Twitter card meta are in `baseof.html` (per-page title/description,
+  `hero.jpg` as the share image).
 
 ## Source assets
 - Original Weebly site (content/images to migrate from) is local-only at

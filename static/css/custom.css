@@ -64,6 +64,15 @@ h1, .display-5 { font-weight: 700; }
   line-height: 1.25;
 }
 
+/* ── Site map ────────────────────────────────────────────────────────────── */
+.sitemap-section {
+  color: var(--tbb-navy);
+  border-bottom: 2px solid var(--tbb-gold);
+  padding-bottom: .35rem;
+  margin-bottom: .75rem;
+}
+.sitemap-section a { color: var(--tbb-navy); text-decoration: none; }
+
 /* ── Homepage: tagline closing strip ─────────────────────────────────────── */
 .tagline-strip {
   background-color: var(--tbb-navy);

@@ -157,35 +157,17 @@ canonifyURLs = true
   parent = "About"
   weight = 5
 
+# Photos lives under About; the year galleries are listed on the /photos/ landing page.
 [[menus.main]]
   name   = "Photos"
   url    = "/photos/"
-  weight = 60
-
-[[menus.main]]
-  name   = "2025"
-  url    = "/photos/2025/"
-  parent = "Photos"
-  weight = 1
-
-[[menus.main]]
-  name   = "2024"
-  url    = "/photos/2024/"
-  parent = "Photos"
-  weight = 2
-
-[[menus.main]]
-  name   = "2023"
-  url    = "/photos/2023/"
-  parent = "Photos"
-  weight = 3
+  parent = "About"
+  weight = 6
 
 [[menus.main]]
   name   = "Donate"
   url    = "/donate/"
   weight = 70
 
-[[menus.main]]
-  name   = "Contact"
-  url    = "/contact/"
-  weight = 80
+# Contact is intentionally not in the top nav — it lives in the footer to keep the
+# primary navigation focused. Update footer.html if that decision changes.

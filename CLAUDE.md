@@ -17,7 +17,7 @@ Hugo static site, deployed via GitHub Actions to GitHub Pages at the custom doma
 
 ## Conventions & gotchas (these have caused real breakage)
 - **Keep Hugo versions in sync.** `HUGO_VERSION` in `deploy.yml` must match local `hugo version`
-  (currently 0.162.0). A newer-than-CI feature (e.g. `hugo.Data`) builds locally but fails CI.
+  (currently 0.163.3). A newer-than-CI feature (e.g. `hugo.Data`) builds locally but fails CI.
 - **Static assets in templates:** reference with `{{ .Site.BaseURL }}css/custom.css` (no leading
   slash after BaseURL). Do **not** use `absURL`/`relURL` — they break on localhost / the Pages base.
   In `range` loops use `{{ $.Site.BaseURL }}`.

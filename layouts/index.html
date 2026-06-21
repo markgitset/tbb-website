@@ -24,8 +24,41 @@
   </div>
 </section>
 
-<!-- Quick links -->
+<!-- At a glance -->
+<section class="at-a-glance py-4">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-md-3">
+        <div class="glance-label">Event Dates</div>
+        <div class="glance-value">{{ printf "%s, %s" .Site.Params.eventDateRange .Site.Params.eventYear }}</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="glance-label">Study Material</div>
+        <div class="glance-value">{{ .Site.Params.eventScripture }}</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="glance-label">Registration Opens</div>
+        <div class="glance-value">{{ .Site.Params.registrationOpens | title }}</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="glance-label">Registration Deadline</div>
+        <div class="glance-value">{{ .Site.Params.registrationDeadline }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with .Content }}
+<!-- Welcome / intro -->
 <section class="py-5">
+  <div class="container">
+    <div class="content-body mx-auto" style="max-width:760px;">{{ . }}</div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Quick links -->
+<section class="py-5 bg-light">
   <div class="container">
     <div class="row g-4 justify-content-center">
 
@@ -67,16 +100,10 @@
 </section>
 
 <!-- Tagline -->
-<section class="py-4 bg-light">
+<section class="tagline-strip py-5">
   <div class="container text-center">
-    <p class="fs-4 fst-italic text-muted mb-0">"Making God's Word Important"</p>
+    <p class="fs-3 fst-italic mb-0">"Making God's Word Important"</p>
   </div>
 </section>
-
-{{ with .Content }}
-<div class="container py-4">
-  <div class="content-body">{{ . }}</div>
-</div>
-{{ end }}
 
 {{ end }}

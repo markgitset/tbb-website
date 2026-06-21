@@ -4,6 +4,7 @@
   <div class="row">
 
     <div class="{{ if .Section }}col-lg-9{{ else }}col-12{{ end }}">
+      {{ partial "breadcrumbs.html" . }}
       <h1 class="page-title mb-4">{{ .Title }}</h1>
       <div class="content-body">
         {{ .Content }}

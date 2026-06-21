@@ -14,7 +14,7 @@ The organization received initial support from the **Magnolia** and **Lake Houst
 churches of Christ, and has grown to bring youth and congregations together from across
 the country each year.
 
-*"Making God's Word Important"*
+*Making God's Word Important*
 
 ## Our Mission
 

@@ -3,7 +3,7 @@ title: "Contact Us"
 description: "Get in touch with Texas Bible Bowl."
 ---
 
-*"Making God's Word Important"*
+*Making God's Word Important*
 
 ## Get in Touch
 

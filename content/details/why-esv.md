@@ -28,4 +28,4 @@ This approach offers several advantages for serious study:
 For a competition where careful study and understanding of Scripture are key, the ESV is
 an excellent choice. It is a newer translation and very readable.
 
-*"Making God's Word Important"*
+*Making God's Word Important*

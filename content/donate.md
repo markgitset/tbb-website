@@ -46,4 +46,4 @@ Supporters can purchase supplies directly through the registry.
 
 [Contact us](/contact/) for any questions about giving.
 
-*"Making God's Word Important"*
+*Making God's Word Important*

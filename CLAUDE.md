@@ -67,8 +67,7 @@ restate a date/year/material, flag it rather than scattering copies.
   cropped to the 2.26:1 banner ratio (1100×486). An inline script at the bottom of
   `layouts/index.html` scrolls one slide every 5 s (clone-of-first-slide loop; honors
   `prefers-reduced-motion`). To refresh photos for a new year: add crops to that folder and
-  edit the param list — nothing else. `static/images/hero.jpg` is no longer shown on the
-  homepage but is still the social-share/OG image (`baseof.html`, `structured-data.html`).
+  edit the param list — nothing else.
 - **Breadcrumbs:** `partials/breadcrumbs.html`, included by `single.html`, `list.html`, and
   `sitemap.html`. Driven by `.Ancestors` — no per-page config needed.
 - **Search:** client-side, no server. `[outputs] home = [HTML, RSS, JSON]` in `hugo.toml` +
@@ -81,8 +80,10 @@ restate a date/year/material, flag it rather than scattering copies.
   section and standalone page; linked from the footer. Distinct from the machine `sitemap.xml`.
 - **"Start here" emphasis:** set `startHere: "<page-slug>"` in a section's `_index.md` to badge that
   child's card on the section landing page (`list.html`). Opt-in; e.g. Details → `how-it-works`.
-- **Social/SEO:** Open Graph + Twitter card meta are in `baseof.html` (per-page title/description,
-  `hero.jpg` as the share image).
+- **Social/SEO:** Open Graph + Twitter card meta are in `baseof.html` (per-page title/description).
+  The share image is `params.shareImage` in `hugo.toml` (file in `static/images/`, 1.91:1), used by
+  `baseof.html` and `structured-data.html`. **When swapping the photo, use a new filename** —
+  link-preview scrapers cache per URL, so a reused name serves stale previews for weeks.
 
 ## Source assets
 - Original Weebly site (content/images to migrate from) is local-only at

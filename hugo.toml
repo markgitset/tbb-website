@@ -31,6 +31,10 @@ canonifyURLs = true
   facebook      = "https://www.facebook.com/TexasBibleBowl"
   youtube       = "https://www.youtube.com/channel/UCdlu_qTP5cmoQrNGJSDRbcg"
   mailingAddress = "10431 Remuda View Drive, San Antonio, TX 78254"
+  # Social/link-preview share image, in static/images/ (1.91:1, e.g. 1100x576). When
+  # swapping the photo, give the new file a NEW name (e.g. share-2027.jpg) — scrapers
+  # cache previews per URL, so reusing a filename keeps stale images alive for weeks.
+  shareImage    = "share-2026.jpg"
 
 # Homepage hero slideshow. Image files live in static/images/hero/ (cropped to the
 # 2.26:1 banner ratio, e.g. 1100x486). To refresh photos for a new year: drop new

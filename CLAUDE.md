@@ -62,6 +62,13 @@ restate a date/year/material, flag it rather than scattering copies.
   `static/css/custom.css`. **Bootstrap Icons** (`<i class="bi bi-…">`) are loaded in `baseof.html`.
 
 ## Site-wide features (how they're wired)
+- **Hero slideshow:** the homepage hero cycles through photos listed in `[[params.heroSlides]]`
+  (`hugo.toml`), one entry per slide (`image` + `alt`). Files live in `static/images/hero/`,
+  cropped to the 2.26:1 banner ratio (1100×486). An inline script at the bottom of
+  `layouts/index.html` scrolls one slide every 5 s (clone-of-first-slide loop; honors
+  `prefers-reduced-motion`). To refresh photos for a new year: add crops to that folder and
+  edit the param list — nothing else. `static/images/hero.jpg` is no longer shown on the
+  homepage but is still the social-share/OG image (`baseof.html`, `structured-data.html`).
 - **Breadcrumbs:** `partials/breadcrumbs.html`, included by `single.html`, `list.html`, and
   `sitemap.html`. Driven by `.Ancestors` — no per-page config needed.
 - **Search:** client-side, no server. `[outputs] home = [HTML, RSS, JSON]` in `hugo.toml` +

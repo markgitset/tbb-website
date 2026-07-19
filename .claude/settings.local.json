@@ -24,7 +24,8 @@
       "Bash(cp \"/home/mark/ws/tbb-website2/www.texasbiblebowl.org/uploads/2/8/7/6/28767859/editor/camp2.png@1752596497\" /home/mark/ws/tbb-website/static/images/wryc-camp2.png)",
       "Bash(sed -i 's|/uploads/2/8/7/6/28767859/|/uploads/|g' /home/mark/ws/tbb-website/content/about/locations.md /home/mark/ws/tbb-website/content/study-resources/downloads.md /home/mark/ws/tbb-website/content/study-resources/practice-tests.md)",
       "Bash(sed -i 's|uploads/2/8/7/6/28767859/|uploads/|g' /home/mark/ws/tbb-website/layouts/photos/single.html)",
-      "Bash(hugo version *)"
+      "Bash(hugo version *)",
+      "Bash(ls /home/mark/ws/tbb-website/data/photos/; echo ---; ls /home/mark/ws/tbb-website/static/uploads/ | wc -l; echo ---; ls /home/mark/ws/tbb-website-weebly/ 2>/dev/null | head)"
     ]
   }
 }
